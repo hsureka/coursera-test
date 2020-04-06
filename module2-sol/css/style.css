@@ -2,13 +2,14 @@
 		{
   			box-sizing: border-box;
 		}
-		@media (min-width: 1200px) 
+		@media (min-width: 992px) 
 		{
-			.w
+			.w, .ww
 			{
 				float:left;
 				background-color: #D3D3D3;
-				height: 315px;
+				/*height: 375px;*/
+				height: auto;
 				border: 30px solid white;
 				width: 33.33%;
 				padding-top: 0px;
@@ -31,14 +32,15 @@
 				width: 110px;
 
 			}
-			.b
+			.b, .bb
 			{
 				
 				position: relative;
 				padding-right: 10px;
 				padding-left: 10px;
+				padding-bottom: 10px;
 				border:1px solid black;
-				height: 255px;
+				height: auto;
 				
 			}
 			#one
@@ -54,3 +56,131 @@
 				background-color: #eb348c;
 			}
 		}
+@media (max-width: 991px) and (min-width: 768px)
+{
+	.w
+	{
+		float:left;
+		background-color: #D3D3D3;
+		/*height: 315px;*/
+		height: auto;
+		border: 30px solid white;
+		width: 50%;
+		padding-top: 0px;
+				
+	}
+	.ww
+	{
+		float:left;
+		background-color: #D3D3D3;
+		/*height: 225px;*/
+		height: auto;
+		border: 30px solid white;
+		width: 100%;
+		padding-top: 0px;
+				
+
+	}
+	h1
+			{
+				text-align: center;
+				font-size: 1.75em;
+			}
+	nav
+			{
+				font-size: 1.25em;
+				right:0px;
+				position: absolute;
+				text-align: center;
+				
+				border: 1px solid black;
+				width: 110px;
+
+			}
+			.b
+			{
+				
+				position: relative;
+				padding-right: 10px;
+				padding-left: 10px;
+				border:1px solid black;
+				/*height: 255px;*/
+				height: auto;
+		}
+		.bb
+			{
+				
+				position: relative;
+				padding-right: 10px;
+				padding-left: 10px;
+				border:1px solid black;
+				/*height: 165px;*/
+				height: auto;
+			}
+		#one
+			{
+				background-color: #34d0eb;
+			}
+			#two
+			{
+				background-color: #ebd234;
+			}
+			#three
+			{
+				background-color: #eb348c;
+			}	
+}
+
+@media (max-width: 767px)
+{
+	.w, .ww
+			{
+				/*float:left;*/
+				background-color: #D3D3D3;
+				/*height: 300px;*/
+				border: 30px solid white;
+				width: 100%;
+				padding-top: 0px;
+				
+
+			}
+			h1
+			{
+				text-align: center;
+				font-size: 1.75em;
+			}
+			nav
+			{
+				font-size: 1.25em;
+				right:0px;
+				position: absolute;
+				text-align: center;
+				
+				border: 1px solid black;
+				width: 110px;
+
+			}
+			.b, .bb
+			{
+				
+				position: relative;
+				padding-right: 10px;
+				padding-left: 10px;
+				border:1px solid black;
+				/*height: 240px;*/
+				
+			}
+			#one
+			{
+				background-color: #34d0eb;
+			}
+			#two
+			{
+				background-color: #ebd234;
+			}
+			#three
+			{
+				background-color: #eb348c;
+			}
+		}
+
