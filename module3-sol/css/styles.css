@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+div.container-fluid{
+	border-top: 0px;
+}
+div.navbar-header{
+	padding:15px 15px 15px 15px;
+	
+}
+.navbar-default .navbar-toggle{
+	border:1px solid #000000;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-default .navbar-brand{
+    color: #000;
+
+}
+.navbar-brand{
+	font-size: 2.5em;
+	color: #000;
+	background-color: #cfc5c4; 
+}
+.navbar-default{
+	background-color: #cfc5c4;	
+	border-radius: 0px;
+	border:1.5px solid black;
+	margin-bottom: 5px;
+}
+li.dropdown-item{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+}
+ul.navbar-nav{
+	 margin-bottom: 0px;
+	 margin-top: 0px;
+}
+h1.menu-heading{
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#chicken, #beef, #sushi{
+	padding:15px 15px 15px 15px;
+	background-color: #cfc5c4; 
+}
+h2{
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+#chicken{
+	background-color: #34d0eb;
+}
+#beef{
+	background-color: #ebd234;
+}
+#sushi{
+	background-color: #eb348c;
+}
+#bs-example-navbar-collapse-1
+{
+	border-top: 1px solid #000;
+}
+#dropdown-wala-hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: 1px solid #000;
+	width: 99%;
+	background-color: #fff;
+}
